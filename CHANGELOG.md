@@ -1,3 +1,12 @@
+## 0.9.3-bc (July 15, 2019)
+
+BigCommerce build of Nomad v0.9.3 with the following cherry-picked:
+
+ * core: Handle error case when attempting to stop a non-existent allocation [[GH-5865](https://github.com/hashicorp/nomad/issues/5865)]
+ * client: Fixed a bug where successfully completed tasks may restart on client restart [[GH-5890](https://github.com/hashicorp/nomad/issues/5890)]
+ * client: Fixed an issue where an alloc remains in pending state if nomad fails to create alloc directory [[GH-5905](https://github.com/hashicorp/nomad/issues/5905)]
+ * metrics: Upgrade prometheus client to avoid label conflicts [[GH-5850](https://github.com/hashicorp/nomad/issues/5850)]
+
 ## 0.9.3 (June 12, 2019)
 
 BUG FIXES:
